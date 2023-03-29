@@ -34,7 +34,7 @@ h3{
     font-size: 36px;
     margin: 0;
 }
-.brand-link a{
+.btn-branding{
     background-color: var(--branding-color);
     border-radius: 4px;
     color: white;
