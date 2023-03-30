@@ -3,12 +3,16 @@
 :root {
     --heading-font-family: 'Playfair Display', serif;
     --default-font-family: "Poppins", sans-serif;
-    --primary-color: #F9F7FE;
-    --branding-color: #6C63FF;
+    --primary-color: #d9f2ff;
+    --branding-color: #005792;
 }
 
 body{
     font-family: var(--default-font-family);
+    background-color: var(--primary-color);
+}
+.container{
+    background-color: #fff;
 }
 
 
@@ -17,15 +21,19 @@ h1{
     font-weight: 700;
     font-size: 96px;
 }
+
 h3{
     margin-top: 20px;
     color: #272142;
     font-weight: 400;
     font-size: 24px;
 }
+p{
+    font-size: 18px;
+}
 .hero{
     background-color: var(--primary-color);
-    padding: 160px 60px;
+    padding: 170px 15px;
 
 }
 .hero p{
@@ -33,16 +41,51 @@ h3{
     font-weight: 700;
     font-size: 36px;
     margin: 0;
+
 }
 .btn-branding{
     background-color: var(--branding-color);
     border-radius: 4px;
     color: white;
     font-size: 18px;
-    line-height: 27px;
     padding: 15px 30px;
 }
 .brand-link a:hover{
-    background-color: #6C63FF;
+    background-color: #005792;
 }
+.brand-info a{
+    border: solid 2px var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.brand-info a:hover{
+    border-color: var(--branding-color);
+}
+.col p{
+    max-width: 535px;
 
+}
+.col img{
+    width: 550px;
+}
+#container-heading-p{
+    background-color: var(--primary-color);
+}
+@media (max-width: 576px) {
+    h1{
+        font-size: 36px;
+    }
+    .hero{
+        padding: 110px 30px;
+    }
+    .brand-info a {
+        padding: 10px 15px;
+    }
+    .container{
+        text-align: center;
+    }
+
+
+}
