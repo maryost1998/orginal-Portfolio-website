@@ -70,6 +70,14 @@ p{
 .col img{
     width: 550px;
 }
+.about-header{
+    font-size: 64px;
+
+}
+.container-content{
+    margin: 30px;
+}
+
 #container-heading-p{
     background-color: var(--primary-color);
 }
@@ -86,6 +94,13 @@ p{
     .container{
         text-align: center;
     }
+
+    .container-content{
+        margin: 15px;
+
+    }
+
+
 
 
 }
