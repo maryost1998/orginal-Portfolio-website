@@ -72,12 +72,17 @@ p{
 }
 .about-header{
     font-size: 64px;
-
 }
 .container-content{
     margin: 30px;
+
 }
 
+.cetrification-img{
+    width: 400px;
+    display: block;
+    margin: 30px auto;
+}
 #container-heading-p{
     background-color: var(--primary-color);
 }
@@ -86,7 +91,7 @@ p{
         font-size: 36px;
     }
     .hero{
-        padding: 110px 30px;
+        padding: 240px 30px;
     }
     .brand-info a {
         padding: 10px 15px;
@@ -98,6 +103,9 @@ p{
     .container-content{
         margin: 15px;
 
+    }
+    .about-header{
+        font-size: 36px;
     }
 
 
