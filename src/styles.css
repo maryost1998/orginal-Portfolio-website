@@ -13,6 +13,7 @@ body{
 }
 .container{
     background-color: #fff;
+    margin-top: 68px;
 }
 
 
@@ -90,6 +91,20 @@ p{
     color: black;
     text-decoration: none;
 }
+.navbar-container{
+    list-style-type: none;
+    margin: 10px 20px;
+}
+footer{
+    margin: 40px;
+
+}
+footer a i{
+    color: var(--branding-color);
+    font-size: 24px;
+
+}
+
 @media (max-width: 576px) {
     h1{
         font-size: 36px;
